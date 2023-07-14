@@ -7,6 +7,22 @@
   pointer-events: none;
 }
 
+.App-card {
+  
+  width: 25vmin;
+  display: flex;
+  flex-direction: column; 
+  text-align: left;
+  color: #C4C6C7;
+}
+
+.App-card-platform {
+}
+
+.App-card-text{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +30,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #202425;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +52,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
